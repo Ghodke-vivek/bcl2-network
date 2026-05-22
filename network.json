@@ -1,0 +1,7375 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "N00245",
+        "label": "ATF4, CREB1...",
+        "full_names": [
+          "ATF4",
+          "CREB1",
+          "CREB5",
+          "ATF2",
+          "CREB3|CREB3L1|CREB3L2|CREB3L3|CREB3L4",
+          "ATF6B"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "ATF4-CREB1 transcription factor complex",
+          "ATF1-ATF4 transcription factor complex"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00142",
+        "label": "BCL2",
+        "full_names": [
+          "BCL2"
+        ],
+        "type": "GENE",
+        "compartments": [
+          "mitochondrial outer membrane"
+        ],
+        "colors": [
+          "#2ca02c"
+        ],
+        "is_connection": true
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "data": {
+        "id": "N00244",
+        "label": "RPS6KA1|RPS6KA2|RPS6KA3|RPS6KA6",
+        "full_names": [
+          "RPS6KA1|RPS6KA2|RPS6KA3|RPS6KA6"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleoplasm",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#cccccc",
+          "#ff7f0e"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00242",
+        "label": "MAPK1|MAPK3",
+        "full_names": [
+          "MAPK1|MAPK3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00241",
+        "label": "MAP2K1, MAP2K2",
+        "full_names": [
+          "MAP2K1",
+          "MAP2K2"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00168",
+        "label": "PRKCD",
+        "full_names": [
+          "PRKCD"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00114",
+        "label": "PLCG2, PLCB1|PLCB2|PLCB3|PLCB4...",
+        "full_names": [
+          "PLCG2",
+          "PLCB1|PLCB2|PLCB3|PLCB4",
+          "PLCG1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "nuclear speck",
+          "ruffle membrane"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00165",
+        "label": "EGFR, FGFR3...",
+        "full_names": [
+          "EGFR",
+          "FGFR3",
+          "PDGFRB",
+          "NTRK2",
+          "MET",
+          "FGFR2",
+          "NTRK1",
+          "KDR",
+          "IGF1R",
+          "PDGFRA"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "receptor complex",
+          "plasma membrane",
+          "insulin receptor complex",
+          "axon",
+          "basal plasma membrane",
+          "axon terminus",
+          "dendritic spine",
+          "postsynaptic density"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00164",
+        "label": "KITLG, EFNA1|EFNA2|EFNA3|EFNA4|EFNA4-EFNA3|EFNA5...",
+        "full_names": [
+          "KITLG",
+          "EFNA1|EFNA2|EFNA3|EFNA4|EFNA4-EFNA3|EFNA5",
+          "FGF2",
+          "FGF23",
+          "EGF",
+          "PDGFB",
+          "VEGFB",
+          "FGF1",
+          "FGF21",
+          "VEGFA",
+          "PDGFA",
+          "PDGFC|PDGFD",
+          "AREG",
+          "GDNF",
+          "NTF3",
+          "FGF19",
+          "CSF1",
+          "IGF1",
+          "PGF",
+          "EREG",
+          "ANGPT1",
+          "ARTN",
+          "TGFA",
+          "nan",
+          "FLT3LG",
+          "FGF10|FGF16|FGF17|FGF18|FGF20|FGF22|FGF3|FGF4|FGF5|FGF6|FGF7|FGF8|FGF9",
+          "INS",
+          "ANGPT4",
+          "PSPN",
+          "NRTN",
+          "HGF",
+          "BDNF",
+          "NGF",
+          "ANGPT2",
+          "NTF4",
+          "IGF2",
+          "VEGFC|VEGFD"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "plasma membrane",
+          "nucleus",
+          "synaptic vesicle",
+          "extracellular space",
+          "external side of plasma membrane",
+          "cell surface",
+          "extracellular matrix"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc",
+          "#1f77b4",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00358",
+        "label": "NTRK3",
+        "full_names": [
+          "NTRK3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "axon",
+          "receptor complex",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00240",
+        "label": "BRAF, RAF1...",
+        "full_names": [
+          "BRAF",
+          "RAF1",
+          "ARAF"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "mitochondrion",
+          "cytosol",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00171",
+        "label": "KRAS, RRAS2...",
+        "full_names": [
+          "KRAS",
+          "RRAS2",
+          "NRAS",
+          "RRAS",
+          "MRAS",
+          "HRAS"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00180",
+        "label": "SOS1|SOS2",
+        "full_names": [
+          "SOS1|SOS2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00239",
+        "label": "GRB2",
+        "full_names": [
+          "GRB2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleoplasm",
+          "cytoplasm",
+          "plasma membrane",
+          "COP9 signalosome"
+        ],
+        "colors": [
+          "#cccccc",
+          "#ff7f0e",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00464",
+        "label": "SHC2, SHC1...",
+        "full_names": [
+          "SHC2",
+          "SHC1",
+          "SHC4",
+          "SHC3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00504",
+        "label": "SH2B2",
+        "full_names": [
+          "SH2B2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00726",
+        "label": "SH2B1|SH2B3",
+        "full_names": [
+          "SH2B1|SH2B3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00238",
+        "label": "RAP1A, RAP1B",
+        "full_names": [
+          "RAP1A",
+          "RAP1B"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00462",
+        "label": "RAPGEF1",
+        "full_names": [
+          "RAPGEF1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00275",
+        "label": "CRK|CRKL",
+        "full_names": [
+          "CRK|CRKL"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00727",
+        "label": "KIDINS220",
+        "full_names": [
+          "KIDINS220"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "synapse"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00728",
+        "label": "FRS2",
+        "full_names": [
+          "FRS2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cell-cell junction"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00286",
+        "label": "MAPK7",
+        "full_names": [
+          "MAPK7"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00285",
+        "label": "MAP2K5",
+        "full_names": [
+          "MAP2K5"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00270",
+        "label": "MAP3K3",
+        "full_names": [
+          "MAP3K3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytosol"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00278",
+        "label": "MAPKAPK2",
+        "full_names": [
+          "MAPKAPK2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00277",
+        "label": "MAPK11|MAPK12|MAPK13|MAPK14",
+        "full_names": [
+          "MAPK11|MAPK12|MAPK13|MAPK14"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00279",
+        "label": "RPS6KA5",
+        "full_names": [
+          "RPS6KA5"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleoplasm",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#cccccc",
+          "#ff7f0e"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00298",
+        "label": "CAMK4, CAMK2A|CAMK2B|CAMK2D|CAMK2G",
+        "full_names": [
+          "CAMK4",
+          "CAMK2A|CAMK2B|CAMK2D|CAMK2G"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm",
+          "neuron projection",
+          "postsynaptic density"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00146",
+        "label": "CALM1|CALM2|CALM3|CALML3|CALML4|CALML5|CALML6",
+        "full_names": [
+          "CALM1|CALM2|CALM3|CALML3|CALML4|CALML5|CALML6"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "centrosome",
+          "cytoplasm",
+          "myelin sheath"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#cccccc",
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00141",
+        "label": "BAK1, BAX",
+        "full_names": [
+          "BAK1",
+          "BAX"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "mitochondrial outer membrane"
+        ],
+        "colors": [
+          "#2ca02c"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00306",
+        "label": "SOD1",
+        "full_names": [
+          "SOD1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "mitochondrion",
+          "cytosol",
+          "peroxisome"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#cccccc",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00594",
+        "label": "CYCS",
+        "full_names": [
+          "CYCS"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "mitochondrial intermembrane space"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00430",
+        "label": "VDAC1",
+        "full_names": [
+          "VDAC1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "mitochondrial outer membrane"
+        ],
+        "colors": [
+          "#2ca02c"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00262",
+        "label": "CASP9",
+        "full_names": [
+          "CASP9"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "cytosol"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00147",
+        "label": "CASP3, CASP7",
+        "full_names": [
+          "CASP3",
+          "CASP7"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "death-inducing signaling complex"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00008",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00092",
+        "label": "SDHB, SDHD...",
+        "full_names": [
+          "SDHB",
+          "SDHD",
+          "SDHC",
+          "SDHA"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "mitochondrial membrane",
+          "respiratory chain complex II (succinate dehydrogenase)"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00151",
+        "label": "COX5B, COX6A1|COX6A2...",
+        "full_names": [
+          "COX5B",
+          "COX6A1|COX6A2",
+          "COX7C",
+          "COX6C",
+          "COX6B1|COX6B2",
+          "COX5A",
+          "COX7B|COX7B2",
+          "COX4I1|COX4I2",
+          "COX8A|COX8C",
+          "COX7A1|COX7A2|COX7A2L",
+          "COX2",
+          "COX1",
+          "COX3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "mitochondrial crista",
+          "mitochondrion",
+          "respiratory chain complex",
+          "mitochondrial membrane",
+          "respiratory chain complex IV",
+          "obsolete mitochondrial respiratory chain complex IV",
+          "mitochondrial inner membrane"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00235",
+        "label": "PPP3CA|PPP3CB|PPP3CC, PPP3R1|PPP3R2",
+        "full_names": [
+          "PPP3CA|PPP3CB|PPP3CC",
+          "PPP3R1|PPP3R2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "cytosol",
+          "calcineurin complex"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00307",
+        "label": "NEFL",
+        "full_names": [
+          "NEFL"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "postsynaptic intermediate filament cytoskeleton",
+          "intermediate filament",
+          "axon"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00628",
+        "label": "HSPA5",
+        "full_names": [
+          "HSPA5"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "membrane",
+          "nucleus",
+          "endoplasmic reticulum chaperone complex",
+          "endoplasmic reticulum lumen"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc",
+          "#1f77b4",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00698",
+        "label": "TOMM40|TOMM40L",
+        "full_names": [
+          "TOMM40|TOMM40L"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "mitochondrial outer membrane translocase complex"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00699",
+        "label": "DERL1",
+        "full_names": [
+          "DERL1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "endoplasmic reticulum membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00602",
+        "label": "ERN1",
+        "full_names": [
+          "ERN1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "endoplasmic reticulum",
+          "IRE1-TRAF2-ASK1 complex"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00603",
+        "label": "EIF2AK3",
+        "full_names": [
+          "EIF2AK3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00190",
+        "label": "EIF2S1",
+        "full_names": [
+          "EIF2S1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "eukaryotic 48S preinitiation complex",
+          "eukaryotic translation initiation factor 2 complex"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00187",
+        "label": "TRAF2",
+        "full_names": [
+          "TRAF2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "IRE1-TRAF2-ASK1 complex"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00607",
+        "label": "XBP1",
+        "full_names": [
+          "XBP1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00271",
+        "label": "MAP3K5",
+        "full_names": [
+          "MAP3K5"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00344",
+        "label": "CASP12",
+        "full_names": [
+          "CASP12"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "NLRP1 inflammasome complex",
+          "cytosol"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00273",
+        "label": "MAP2K3, MAP2K4...",
+        "full_names": [
+          "MAP2K3",
+          "MAP2K4",
+          "nan",
+          "MAP2K7",
+          "MAP2K6"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00308",
+        "label": "NEFM",
+        "full_names": [
+          "NEFM"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "postsynaptic intermediate filament cytoskeleton",
+          "intermediate filament",
+          "axon"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00309",
+        "label": "NEFH",
+        "full_names": [
+          "NEFH"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "neurofilament",
+          "axon"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00666",
+        "label": "KIF5A|KIF5B|KIF5C, KLC1|KLC2|KLC3|KLC4",
+        "full_names": [
+          "KIF5A|KIF5B|KIF5C",
+          "KLC1|KLC2|KLC3|KLC4"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "microtubule",
+          "kinesin complex"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01074",
+        "label": "TARDBP",
+        "full_names": [
+          "TARDBP"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "chromatin",
+          "nucleoplasm"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00203",
+        "label": "NDUFA10, COXFA4|COXFA4L2...",
+        "full_names": [
+          "NDUFA10",
+          "COXFA4|COXFA4L2",
+          "NDUFB10",
+          "NDUFA13",
+          "NDUFS8",
+          "NDUFA7",
+          "NDUFB3",
+          "NDUFA6",
+          "NDUFC2|NDUFC2-KCTD14",
+          "NDUFA1",
+          "NDUFB6",
+          "NDUFS4",
+          "ND1",
+          "NDUFB7",
+          "NDUFS1",
+          "NDUFS5",
+          "NDUFS6",
+          "NDUFA5",
+          "ND6",
+          "NDUFS2",
+          "NDUFAB1",
+          "NDUFA2",
+          "NDUFA3",
+          "NDUFB9",
+          "NDUFA8",
+          "NDUFV2",
+          "NDUFB2",
+          "NDUFB5",
+          "NDUFC1",
+          "NDUFV3",
+          "NDUFB1",
+          "NDUFS3",
+          "ND5",
+          "NDUFA11",
+          "NDUFA9",
+          "NDUFB4",
+          "ND2",
+          "NDUFS7",
+          "NDUFV1",
+          "NDUFA12",
+          "NDUFB8",
+          "ND4L",
+          "ND3",
+          "ND4",
+          "NDUFB11"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "mitochondrion",
+          "respiratory chain complex I",
+          "respiratory chain complex IV",
+          "mitochondrial inner membrane"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00339",
+        "label": "AIFM1",
+        "full_names": [
+          "AIFM1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "mitochondrion"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": false
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00163",
+        "label": "NFKBIA, NFKBIB...",
+        "full_names": [
+          "NFKBIA",
+          "NFKBIB",
+          "NFKBIE"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "cytosol"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00162",
+        "label": "NFKB1, RELA...",
+        "full_names": [
+          "NFKB1",
+          "RELA",
+          "NFKB2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00638",
+        "label": "JUP",
+        "full_names": [
+          "JUP"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00247",
+        "label": "MYC",
+        "full_names": [
+          "MYC"
+        ],
+        "type": "GENE",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00258",
+        "label": "RAC1, RAC2...",
+        "full_names": [
+          "RAC1",
+          "RAC2",
+          "RAC3",
+          "CDC42",
+          "RHOA"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "dendritic spine",
+          "neuron projection",
+          "plasma membrane",
+          "cytosol"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00248",
+        "label": "MAPK10, MAPK8...",
+        "full_names": [
+          "MAPK10",
+          "MAPK8",
+          "MAPK9"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00632",
+        "label": "AGT",
+        "full_names": [
+          "AGT"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "extracellular space"
+        ],
+        "colors": [
+          "#d62728"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00208",
+        "label": "BDKRB1, BDKRB2...",
+        "full_names": [
+          "BDKRB1",
+          "BDKRB2",
+          "EDNRA",
+          "EDNRB"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00318",
+        "label": "GNAQ, GNA11",
+        "full_names": [
+          "GNAQ",
+          "GNA11"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00740",
+        "label": "MAVS",
+        "full_names": [
+          "MAVS"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00272",
+        "label": "MAP3K7",
+        "full_names": [
+          "MAP3K7"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01063",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00990",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00428",
+        "label": "LYN",
+        "full_names": [
+          "LYN"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00110",
+        "label": "PIK3CA, PIK3CB...",
+        "full_names": [
+          "PIK3CA",
+          "PIK3CB",
+          "PIK3CD",
+          "P3R3URF-PIK3R3",
+          "PIK3R1",
+          "PIK3R2",
+          "PIK3R3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00284",
+        "label": "AKT1, AKT2...",
+        "full_names": [
+          "AKT1",
+          "AKT2",
+          "AKT3"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01069",
+        "label": "GLMN",
+        "full_names": [
+          "GLMN"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00755",
+        "label": "NLRP3",
+        "full_names": [
+          "NLRP3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00754",
+        "label": "PYCARD",
+        "full_names": [
+          "PYCARD"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00123",
+        "label": "CASP1",
+        "full_names": [
+          "CASP1"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00252",
+        "label": "IL1B",
+        "full_names": [
+          "IL1B"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "extracellular space"
+        ],
+        "colors": [
+          "#d62728"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00253",
+        "label": "IL1R1",
+        "full_names": [
+          "IL1R1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cell surface",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00221",
+        "label": "CCR5",
+        "full_names": [
+          "CCR5"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "external side of plasma membrane",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#cccccc",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00301",
+        "label": "GNAI1, GNAI2...",
+        "full_names": [
+          "GNAI1",
+          "GNAI2",
+          "GNAI3",
+          "GNAO1",
+          "GNB1",
+          "GNB2",
+          "GNB3",
+          "GNB4",
+          "GNB5",
+          "GNG2",
+          "GNG3",
+          "GNG4",
+          "GNG5",
+          "GNG7",
+          "GNG8",
+          "GNG10",
+          "GNG11",
+          "GNG12",
+          "GNG13",
+          "GNGT1",
+          "GNGT2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00600",
+        "label": "RIPK2",
+        "full_names": [
+          "RIPK2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01088",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00255",
+        "label": "FASLG",
+        "full_names": [
+          "FASLG"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "extracellular space"
+        ],
+        "colors": [
+          "#d62728"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00256",
+        "label": "FAS",
+        "full_names": [
+          "FAS"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "external side of plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00152",
+        "label": "DAXX",
+        "full_names": [
+          "DAXX"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00435",
+        "label": "DLL1, DLL3...",
+        "full_names": [
+          "DLL1",
+          "DLL3",
+          "DLL4"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00166",
+        "label": "NOTCH1, NOTCH2...",
+        "full_names": [
+          "NOTCH1",
+          "NOTCH2",
+          "NOTCH3",
+          "NOTCH4"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "receptor complex",
+          "cell surface",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00018",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00429",
+        "label": "SYK",
+        "full_names": [
+          "SYK"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00412",
+        "label": "VAV1, VAV2...",
+        "full_names": [
+          "VAV1",
+          "VAV2",
+          "VAV3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00342",
+        "label": "IRAK4",
+        "full_names": [
+          "IRAK4"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00659",
+        "label": "TLR4",
+        "full_names": [
+          "TLR4"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00484",
+        "label": "BCR, ABL1",
+        "full_names": [
+          "BCR",
+          "ABL1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane",
+          "membrane"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00791",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00048",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00343",
+        "label": "IL3RA, CSF2RB",
+        "full_names": [
+          "IL3RA",
+          "CSF2RB"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "external side of plasma membrane",
+          "receptor complex"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00259",
+        "label": "CASP4",
+        "full_names": [
+          "CASP4"
+        ],
+        "type": NaN,
+        "compartments": [
+          "cytoplasm",
+          "NLRP1 inflammasome complex",
+          "cytosol"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00630",
+        "label": "EGLN1, EGLN2...",
+        "full_names": [
+          "EGLN1",
+          "EGLN2",
+          "EGLN3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00561",
+        "label": "HIF1A, EPAS1",
+        "full_names": [
+          "HIF1A",
+          "EPAS1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00502",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00257",
+        "label": "CD14",
+        "full_names": [
+          "CD14"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "external side of plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00454",
+        "label": "CD36",
+        "full_names": [
+          "CD36"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cell surface"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01064",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00812",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00813",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00341",
+        "label": "MYD88",
+        "full_names": [
+          "MYD88"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00718",
+        "label": "ARHGEF1, ARHGEF11...",
+        "full_names": [
+          "ARHGEF1",
+          "ARHGEF11",
+          "AKAP13"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00595",
+        "label": "OLR1",
+        "full_names": [
+          "OLR1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "receptor complex",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00686",
+        "label": "ERO1A",
+        "full_names": [
+          "ERO1A"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "endoplasmic reticulum membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00350",
+        "label": "ITPR1",
+        "full_names": [
+          "ITPR1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "endoplasmic reticulum membrane",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00014",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Compound",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00507",
+        "label": "FOXO3",
+        "full_names": [
+          "FOXO3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00370",
+        "label": "LBP",
+        "full_names": [
+          "LBP"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "extracellular space"
+        ],
+        "colors": [
+          "#d62728"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00705",
+        "label": "USP7",
+        "full_names": [
+          "USP7"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytosol"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00282",
+        "label": "TP53",
+        "full_names": [
+          "TP53"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "chromatin",
+          "nucleus"
+        ],
+        "colors": [
+          "#cccccc",
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00854",
+        "label": "PHLPP1, PHLPP2",
+        "full_names": [
+          "PHLPP1",
+          "PHLPP2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00204",
+        "label": "KNG1",
+        "full_names": [
+          "KNG1"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00486",
+        "label": "CDKN2A",
+        "full_names": [
+          "CDKN2A"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00494",
+        "label": "MDM2",
+        "full_names": [
+          "MDM2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00024",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00407",
+        "label": "SRC",
+        "full_names": [
+          "SRC"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00283",
+        "label": "DDIT3",
+        "full_names": [
+          "DDIT3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00841",
+        "label": "EML4, ALK",
+        "full_names": [
+          "EML4",
+          "ALK"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "receptor complex",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00251",
+        "label": "PPP2CA, PPP2CB...",
+        "full_names": [
+          "PPP2CA",
+          "PPP2CB",
+          "PPP2R1A",
+          "PPP2R1B",
+          "PPP2R2A",
+          "PPP2R2B",
+          "PPP2R2C",
+          "PPP2R2D",
+          "PPP2R3A",
+          "PPP2R3B",
+          "PPP2R3C",
+          "PPP2R5A",
+          "PPP2R5B",
+          "PPP2R5C",
+          "PPP2R5D",
+          "PPP2R5E"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "centrosome",
+          "cytoplasm",
+          "cytosol"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#cccccc",
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00814",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00327",
+        "label": "STAT3",
+        "full_names": [
+          "STAT3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00177",
+        "label": "FRAT1, FRAT2",
+        "full_names": [
+          "FRAT1",
+          "FRAT2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00155",
+        "label": "DVL1, DVL2...",
+        "full_names": [
+          "DVL1",
+          "DVL2",
+          "DVL3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytosol"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00178",
+        "label": "GSK3B",
+        "full_names": [
+          "GSK3B"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "axon",
+          "cytoplasm",
+          "cytosol"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#cccccc",
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00122",
+        "label": "CAPN1, CAPN2",
+        "full_names": [
+          "CAPN1",
+          "CAPN2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00169",
+        "label": "ETS1",
+        "full_names": [
+          "ETS1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00503",
+        "label": "IRS1, IRS2...",
+        "full_names": [
+          "IRS1",
+          "IRS2",
+          "IRS4"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane",
+          "cytosol"
+        ],
+        "colors": [
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00998",
+        "label": "DAB2IP",
+        "full_names": [
+          "DAB2IP"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00419",
+        "label": "PXN",
+        "full_names": [
+          "PXN"
+        ],
+        "type": NaN,
+        "compartments": [
+          "cell-cell junction"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00281",
+        "label": "JAK1, JAK2...",
+        "full_names": [
+          "JAK1",
+          "JAK2",
+          "TYK2",
+          "JAK3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytosol"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00596",
+        "label": "RALBP1",
+        "full_names": [
+          "RALBP1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00626",
+        "label": "SPI1",
+        "full_names": [
+          "SPI1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00391",
+        "label": "MAGI1, MAGI2",
+        "full_names": [
+          "MAGI1",
+          "MAGI2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "cell-cell junction"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00112",
+        "label": "PTEN",
+        "full_names": [
+          "PTEN"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "plasma membrane",
+          "cytosol"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00794",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00434",
+        "label": "PTK2B",
+        "full_names": [
+          "PTK2B"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00985",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00378",
+        "label": "IRF3",
+        "full_names": [
+          "IRF3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00325",
+        "label": "IFNB1, IFNA1...",
+        "full_names": [
+          "IFNB1",
+          "IFNA1",
+          "IFNA10",
+          "IFNA13",
+          "IFNA14",
+          "IFNA16",
+          "IFNA17",
+          "IFNA2",
+          "IFNA21",
+          "IFNA4",
+          "IFNA5",
+          "IFNA6",
+          "IFNA7",
+          "IFNA8"
+        ],
+        "type": "GENE",
+        "compartments": [
+          "extracellular space"
+        ],
+        "colors": [
+          "#d62728"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00989",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00371",
+        "label": "LY96",
+        "full_names": [
+          "LY96"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00986",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00987",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00437",
+        "label": "RBPJ, RBPJL",
+        "full_names": [
+          "RBPJ",
+          "RBPJL"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00380",
+        "label": "IL10",
+        "full_names": [
+          "IL10"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "extracellular space"
+        ],
+        "colors": [
+          "#d62728"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00360",
+        "label": "IL10RA, IL10RB",
+        "full_names": [
+          "IL10RA",
+          "IL10RB"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00662",
+        "label": "TLR5",
+        "full_names": [
+          "TLR5"
+        ],
+        "type": NaN,
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00795",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00763",
+        "label": "U2AF1, U2AF1L4...",
+        "full_names": [
+          "U2AF1",
+          "U2AF1L4",
+          "U2AF1L5"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00743",
+        "label": "STING1",
+        "full_names": [
+          "STING1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "endoplasmic reticulum membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00377",
+        "label": "TBK1",
+        "full_names": [
+          "TBK1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01041",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00623",
+        "label": "NKX3-1",
+        "full_names": [
+          "NKX3-1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00610",
+        "label": "CEBPA",
+        "full_names": [
+          "CEBPA"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01085",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00184",
+        "label": "CD40",
+        "full_names": [
+          "CD40"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "external side of plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00853",
+        "label": "THEM4",
+        "full_names": [
+          "THEM4"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "mitochondrion"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00194",
+        "label": "HSPA1A, HSPA1B...",
+        "full_names": [
+          "HSPA1A",
+          "HSPA1B",
+          "HSPA1L",
+          "HSPA6",
+          "HSPA8"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm",
+          "plasma membrane",
+          "cytosol"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e",
+          "#cccccc",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00410",
+        "label": "PTK2",
+        "full_names": [
+          "PTK2"
+        ],
+        "type": NaN,
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00957",
+        "label": "CYTH1, CYTH2...",
+        "full_names": [
+          "CYTH1",
+          "CYTH2",
+          "CYTH3",
+          "CYTH4"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00540",
+        "label": "ARF6",
+        "full_names": [
+          "ARF6"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00539",
+        "label": "ARF1",
+        "full_names": [
+          "ARF1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#ff7f0e",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00784",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00939",
+        "label": "CGAS",
+        "full_names": [
+          "CGAS"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytosol"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00291",
+        "label": "SMAD3",
+        "full_names": [
+          "SMAD3"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00546",
+        "label": "CYBA",
+        "full_names": [
+          "CYBA"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00015",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00549",
+        "label": "RASSF5",
+        "full_names": [
+          "RASSF5"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00633",
+        "label": "RASSF1",
+        "full_names": [
+          "RASSF1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00329",
+        "label": "SOCS1, SOCS2...",
+        "full_names": [
+          "SOCS1",
+          "SOCS2",
+          "SOCS3",
+          "SOCS4",
+          "SOCS5",
+          "SOCS6",
+          "SOCS7"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00158",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00436",
+        "label": "JAG1, JAG2",
+        "full_names": [
+          "JAG1",
+          "JAG2"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00039",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00289",
+        "label": "CHUK",
+        "full_names": [
+          "CHUK"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00064",
+        "label": "Unknown",
+        "full_names": [],
+        "type": NaN,
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01081",
+        "label": "TIFA",
+        "full_names": [
+          "TIFA"
+        ],
+        "type": NaN,
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00186",
+        "label": "TRADD",
+        "full_names": [
+          "TRADD"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00288",
+        "label": "MAP3K14",
+        "full_names": [
+          "MAP3K14"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00593",
+        "label": "RALGDS",
+        "full_names": [
+          "RALGDS"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00996",
+        "label": "AGER",
+        "full_names": [
+          "AGER"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "extracellular space",
+          "plasma membrane"
+        ],
+        "colors": [
+          "#d62728",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00124",
+        "label": "MMP1",
+        "full_names": [
+          "MMP1"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00776",
+        "label": "Unknown",
+        "full_names": [],
+        "type": NaN,
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01005",
+        "label": "VLDLR",
+        "full_names": [
+          "VLDLR"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00637",
+        "label": "PML, RARA",
+        "full_names": [
+          "PML",
+          "RARA"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "nucleoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00739",
+        "label": "IFIH1",
+        "full_names": [
+          "IFIH1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00992",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00237",
+        "label": "RASGRP1, RASGRP2...",
+        "full_names": [
+          "RASGRP1",
+          "RASGRP2",
+          "RASGRP3",
+          "RASGRP4"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00547",
+        "label": "NCF1",
+        "full_names": [
+          "NCF1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00852",
+        "label": "CRTC2",
+        "full_names": [
+          "CRTC2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00572",
+        "label": "RUNX1, RUNX1T1",
+        "full_names": [
+          "RUNX1",
+          "RUNX1T1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01042",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00079",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00856",
+        "label": "EDN1",
+        "full_names": [
+          "EDN1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "extracellular space"
+        ],
+        "colors": [
+          "#d62728"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00340",
+        "label": "ATM, ATR",
+        "full_names": [
+          "ATM",
+          "ATR"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00988",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00185",
+        "label": "CD40LG",
+        "full_names": [
+          "CD40LG"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "extracellular space"
+        ],
+        "colors": [
+          "#d62728"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00529",
+        "label": "RALA, RALB",
+        "full_names": [
+          "RALA",
+          "RALB"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00597",
+        "label": "DAPK1, DAPK2...",
+        "full_names": [
+          "DAPK1",
+          "DAPK2",
+          "DAPK3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01065",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00790",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00138",
+        "label": "CTNNB1",
+        "full_names": [
+          "CTNNB1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus",
+          "cytoplasm"
+        ],
+        "colors": [
+          "#1f77b4",
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00290",
+        "label": "CREBBP, EP300",
+        "full_names": [
+          "CREBBP",
+          "EP300"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00322",
+        "label": "TGFBR1",
+        "full_names": [
+          "TGFBR1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00778",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00771",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00065",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Compound",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00167",
+        "label": "TCF7, TCF7L1...",
+        "full_names": [
+          "TCF7",
+          "TCF7L1",
+          "TCF7L2",
+          "LEF1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "chromatin"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01040",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00734",
+        "label": "EGR2, EGR3",
+        "full_names": [
+          "EGR2",
+          "EGR3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01087",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00661",
+        "label": "TCL1A, TCL1B...",
+        "full_names": [
+          "TCL1A",
+          "TCL1B",
+          "MTCP1"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "nucleus"
+        ],
+        "colors": [
+          "#1f77b4"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00624",
+        "label": "POU2F1, POU2F2...",
+        "full_names": [
+          "POU2F1",
+          "POU2F2",
+          "POU2F3"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00675",
+        "label": "NEDD4",
+        "full_names": [
+          "NEDD4"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01086",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00376",
+        "label": "TICAM2",
+        "full_names": [
+          "TICAM2"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00423",
+        "label": "TICAM1",
+        "full_names": [
+          "TICAM1"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00372",
+        "label": "TLR3",
+        "full_names": [
+          "TLR3"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "plasma membrane"
+        ],
+        "colors": [
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00116",
+        "label": "F2",
+        "full_names": [
+          "F2"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "extracellular space",
+          "extracellular matrix"
+        ],
+        "colors": [
+          "#d62728",
+          "#cccccc"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01060",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00139",
+        "label": "ATP6AP1",
+        "full_names": [
+          "ATP6AP1"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00738",
+        "label": "RIGI",
+        "full_names": [
+          "RIGI"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N01084",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00491",
+        "label": "YWHAB, YWHAQ...",
+        "full_names": [
+          "YWHAB",
+          "YWHAQ",
+          "YWHAZ",
+          "YWHAE",
+          "YWHAG",
+          "YWHAH"
+        ],
+        "type": "Protein",
+        "compartments": [
+          "cytoplasm"
+        ],
+        "colors": [
+          "#ff7f0e"
+        ],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00991",
+        "label": "Unknown",
+        "full_names": [],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    },
+    {
+      "data": {
+        "id": "N00461",
+        "label": "PDPK1",
+        "full_names": [
+          "PDPK1"
+        ],
+        "type": "Protein",
+        "compartments": [],
+        "colors": [],
+        "is_connection": true
+      },
+      "position": null
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "RL00866",
+        "source": "N00245",
+        "target": "N00142",
+        "interaction": "GErel;expression;-->",
+        "origin": "UPSTREAM",
+        "pathway": "PI3K-Akt signaling pathway ; Neurotrophin signaling pathway ; Parathyroid hormone synthesis, secretion and action"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00863",
+        "source": "N00244",
+        "target": "N00245",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00823",
+        "source": "N00242",
+        "target": "N00244",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00800",
+        "source": "N00241",
+        "target": "N00242",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Endocrine resistance ; HIF-1 signaling pathway ; Sphingolipid signaling pathway ; Autophagy - animal ; PI3K-Akt signaling pathway ; Apoptosis ; Neurotrophin signaling pathway ; Cholinergic synapse ; Estrogen signaling pathway ; Parathyroid hormone synthesis, secretion and action ; Pathways of neurodegeneration - multiple diseases ; Salmonella infection ; Hepatitis B ; Human immunodeficiency virus 1 infection ; Pathways in cancer ; Chemical carcinogenesis - receptor activation ; Colorectal cancer ; Prostate cancer ; Gastric cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00476",
+        "source": "N00168",
+        "target": "N00241",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00242",
+        "source": "N00114",
+        "target": "N00168",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Sphingolipid signaling pathway ; Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00423",
+        "source": "N00165",
+        "target": "N00114",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Neurotrophin signaling pathway ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00415",
+        "source": "N00164",
+        "target": "N00165",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Endocrine resistance ; HIF-1 signaling pathway ; PI3K-Akt signaling pathway ; Apoptosis ; Focal adhesion ; Neurotrophin signaling pathway ; Parathyroid hormone synthesis, secretion and action ; Pathways in cancer ; Colorectal cancer ; Prostate cancer ; Gastric cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00416",
+        "source": "N00164",
+        "target": "N00165",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01505",
+        "source": "N00358",
+        "target": "N00114",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00417",
+        "source": "N00164",
+        "target": "N00358",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00418",
+        "source": "N00164",
+        "target": "N00358",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00243",
+        "source": "N00114",
+        "target": "N00168",
+        "interaction": "PPrel;compound;13",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00795",
+        "source": "N00240",
+        "target": "N00241",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Endocrine resistance ; Sphingolipid signaling pathway ; Autophagy - animal ; PI3K-Akt signaling pathway ; Apoptosis ; Neurotrophin signaling pathway ; Estrogen signaling pathway ; Parathyroid hormone synthesis, secretion and action ; Pathways of neurodegeneration - multiple diseases ; Salmonella infection ; Hepatitis B ; Human immunodeficiency virus 1 infection ; Pathways in cancer ; Chemical carcinogenesis - receptor activation ; Colorectal cancer ; Prostate cancer ; Gastric cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00520",
+        "source": "N00171",
+        "target": "N00240",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Endocrine resistance ; Sphingolipid signaling pathway ; Autophagy - animal ; PI3K-Akt signaling pathway ; Apoptosis ; Focal adhesion ; JAK-STAT signaling pathway ; Neurotrophin signaling pathway ; Estrogen signaling pathway ; Pathways of neurodegeneration - multiple diseases ; Salmonella infection ; Hepatitis B ; Human immunodeficiency virus 1 infection ; Pathways in cancer ; Chemical carcinogenesis - receptor activation ; Colorectal cancer ; Prostate cancer ; Gastric cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00583",
+        "source": "N00180",
+        "target": "N00171",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Endocrine resistance ; PI3K-Akt signaling pathway ; Focal adhesion ; JAK-STAT signaling pathway ; Neurotrophin signaling pathway ; Estrogen signaling pathway ; Hepatitis B ; Pathways in cancer ; Chemical carcinogenesis - receptor activation ; Colorectal cancer ; Prostate cancer ; Gastric cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00789",
+        "source": "N00239",
+        "target": "N00180",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00431",
+        "source": "N00165",
+        "target": "N00239",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01506",
+        "source": "N00358",
+        "target": "N00239",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01739",
+        "source": "N00464",
+        "target": "N00239",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00442",
+        "source": "N00165",
+        "target": "N00464",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Endocrine resistance ; Focal adhesion ; Neurotrophin signaling pathway ; Estrogen signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00443",
+        "source": "N00165",
+        "target": "N00464",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01507",
+        "source": "N00358",
+        "target": "N00464",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01508",
+        "source": "N00358",
+        "target": "N00464",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01792",
+        "source": "N00504",
+        "target": "N00239",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00447",
+        "source": "N00165",
+        "target": "N00504",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00448",
+        "source": "N00165",
+        "target": "N00504",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01512",
+        "source": "N00358",
+        "target": "N00504",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01513",
+        "source": "N00358",
+        "target": "N00504",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02152",
+        "source": "N00726",
+        "target": "N00239",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00455",
+        "source": "N00165",
+        "target": "N00726",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00456",
+        "source": "N00165",
+        "target": "N00726",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01515",
+        "source": "N00358",
+        "target": "N00726",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01516",
+        "source": "N00358",
+        "target": "N00726",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00816",
+        "source": "N00242",
+        "target": "N00171",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00801",
+        "source": "N00241",
+        "target": "N00242",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Endocrine resistance ; Sphingolipid signaling pathway ; Autophagy - animal ; PI3K-Akt signaling pathway ; Apoptosis ; Focal adhesion ; Neurotrophin signaling pathway ; Cholinergic synapse ; Parathyroid hormone synthesis, secretion and action ; Pathways of neurodegeneration - multiple diseases ; Salmonella infection ; Hepatitis B ; Human immunodeficiency virus 1 infection ; Pathways in cancer ; Chemical carcinogenesis - receptor activation ; Colorectal cancer ; Prostate cancer ; Gastric cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00796",
+        "source": "N00240",
+        "target": "N00241",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Endocrine resistance ; Sphingolipid signaling pathway ; Autophagy - animal ; PI3K-Akt signaling pathway ; Apoptosis ; Focal adhesion ; Neurotrophin signaling pathway ; Parathyroid hormone synthesis, secretion and action ; Pathways of neurodegeneration - multiple diseases ; Salmonella infection ; Hepatitis B ; Human immunodeficiency virus 1 infection ; Pathways in cancer ; Chemical carcinogenesis - receptor activation ; Colorectal cancer ; Prostate cancer ; Gastric cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00785",
+        "source": "N00238",
+        "target": "N00240",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Focal adhesion ; Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01736",
+        "source": "N00462",
+        "target": "N00238",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Focal adhesion ; Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01100",
+        "source": "N00275",
+        "target": "N00462",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02153",
+        "source": "N00727",
+        "target": "N00275",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00457",
+        "source": "N00165",
+        "target": "N00727",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00458",
+        "source": "N00165",
+        "target": "N00727",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02154",
+        "source": "N00728",
+        "target": "N00275",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00459",
+        "source": "N00165",
+        "target": "N00728",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00817",
+        "source": "N00242",
+        "target": "N00171",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00861",
+        "source": "N00244",
+        "target": "N00171",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00824",
+        "source": "N00242",
+        "target": "N00244",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01269",
+        "source": "N00286",
+        "target": "N00244",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01267",
+        "source": "N00285",
+        "target": "N00286",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway ; Fluid shear stress and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01065",
+        "source": "N00270",
+        "target": "N00285",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00526",
+        "source": "N00171",
+        "target": "N00270",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00862",
+        "source": "N00244",
+        "target": "N00171",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01270",
+        "source": "N00286",
+        "target": "N00244",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01268",
+        "source": "N00285",
+        "target": "N00286",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway ; Fluid shear stress and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01066",
+        "source": "N00270",
+        "target": "N00285",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00527",
+        "source": "N00171",
+        "target": "N00270",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00864",
+        "source": "N00244",
+        "target": "N00245",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01139",
+        "source": "N00278",
+        "target": "N00245",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01118",
+        "source": "N00277",
+        "target": "N00278",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00528",
+        "source": "N00171",
+        "target": "N00277",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway ; AGE-RAGE signaling pathway in diabetic complications ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00529",
+        "source": "N00171",
+        "target": "N00277",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway ; AGE-RAGE signaling pathway in diabetic complications"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00530",
+        "source": "N00171",
+        "target": "N00277",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01119",
+        "source": "N00277",
+        "target": "N00278",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01140",
+        "source": "N00279",
+        "target": "N00245",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Adrenergic signaling in cardiomyocytes ; Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00836",
+        "source": "N00242",
+        "target": "N00279",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Adrenergic signaling in cardiomyocytes ; Neurotrophin signaling pathway ; Shigellosis ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00837",
+        "source": "N00242",
+        "target": "N00279",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway ; Shigellosis ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01141",
+        "source": "N00279",
+        "target": "N00245",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "UPSTREAM",
+        "pathway": "Adrenergic signaling in cardiomyocytes ; Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01318",
+        "source": "N00298",
+        "target": "N00245",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00320",
+        "source": "N00146",
+        "target": "N00298",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Adrenergic signaling in cardiomyocytes ; Neurotrophin signaling pathway ; Pathways of neurodegeneration - multiple diseases ; Tuberculosis ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00240",
+        "source": "N00114",
+        "target": "N00146",
+        "interaction": "PPrel;activation;-->",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00241",
+        "source": "N00114",
+        "target": "N00146",
+        "interaction": "PPrel;compound;17",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01319",
+        "source": "N00298",
+        "target": "N00245",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "UPSTREAM",
+        "pathway": "Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00306",
+        "source": "N00142",
+        "target": "N00141",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Endocrine resistance ; Platinum drug resistance ; p53 signaling pathway ; Protein processing in endoplasmic reticulum ; Apoptosis ; Apoptosis - multiple species ; Necroptosis ; Hepatitis B ; Measles ; Herpes simplex virus 1 infection ; Human immunodeficiency virus 1 infection ; Pathways in cancer ; Small cell lung cancer ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00307",
+        "source": "N00142",
+        "target": "N00141",
+        "interaction": "PPrel;missing interaction;-/-",
+        "origin": "DOWNSTREAM",
+        "pathway": "Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00311",
+        "source": "N00142",
+        "target": "N00306",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00314",
+        "source": "N00142",
+        "target": "N00594",
+        "interaction": "PPrel;missing interaction;-/-",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00312",
+        "source": "N00142",
+        "target": "N00430",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01679",
+        "source": "N00430",
+        "target": "N00594",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01680",
+        "source": "N00430",
+        "target": "N00594",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "DOWNSTREAM",
+        "pathway": "Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01964",
+        "source": "N00594",
+        "target": "N00262",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "p53 signaling pathway ; Apoptosis ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Toxoplasmosis ; Measles ; Herpes simplex virus 1 infection ; Human immunodeficiency virus 1 infection ; Pathways in cancer ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01048",
+        "source": "N00262",
+        "target": "N00147",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Platinum drug resistance ; p53 signaling pathway ; Apoptosis ; Apoptosis - multiple species ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Toxoplasmosis ; Hepatitis B ; Measles ; Herpes simplex virus 1 infection ; Epstein-Barr virus infection ; Human immunodeficiency virus 1 infection ; Pathways in cancer ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01356",
+        "source": "N00306",
+        "target": "N00008",
+        "interaction": "PCrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01358",
+        "source": "N00306",
+        "target": "N00092",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01359",
+        "source": "N00306",
+        "target": "N00092",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01360",
+        "source": "N00306",
+        "target": "N00142",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01361",
+        "source": "N00306",
+        "target": "N00151",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01362",
+        "source": "N00306",
+        "target": "N00151",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01363",
+        "source": "N00306",
+        "target": "N00235",
+        "interaction": "PPrel;missing interaction;-/-",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01364",
+        "source": "N00306",
+        "target": "N00307",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01365",
+        "source": "N00306",
+        "target": "N00430",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01366",
+        "source": "N00306",
+        "target": "N00628",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01367",
+        "source": "N00306",
+        "target": "N00628",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01369",
+        "source": "N00306",
+        "target": "N00698",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01370",
+        "source": "N00306",
+        "target": "N00699",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02038",
+        "source": "N00628",
+        "target": "N00245",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02039",
+        "source": "N00628",
+        "target": "N00245",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02040",
+        "source": "N00628",
+        "target": "N00602",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02041",
+        "source": "N00628",
+        "target": "N00602",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02042",
+        "source": "N00628",
+        "target": "N00603",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02043",
+        "source": "N00628",
+        "target": "N00603",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02006",
+        "source": "N00603",
+        "target": "N00190",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Autophagy - animal ; Protein processing in endoplasmic reticulum ; Apoptosis ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00646",
+        "source": "N00190",
+        "target": "N00245",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Protein processing in endoplasmic reticulum ; Apoptosis ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02002",
+        "source": "N00602",
+        "target": "N00187",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Protein processing in endoplasmic reticulum ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02005",
+        "source": "N00602",
+        "target": "N00607",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Protein processing in endoplasmic reticulum ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00624",
+        "source": "N00187",
+        "target": "N00271",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Protein processing in endoplasmic reticulum ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00635",
+        "source": "N00187",
+        "target": "N00344",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01069",
+        "source": "N00271",
+        "target": "N00273",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Protein processing in endoplasmic reticulum ; Neurotrophin signaling pathway ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Fluid shear stress and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01070",
+        "source": "N00271",
+        "target": "N00273",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Fluid shear stress and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01094",
+        "source": "N00273",
+        "target": "N00277",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Salmonella infection ; Toxoplasmosis ; Hepatitis B ; Epstein-Barr virus infection ; Human immunodeficiency virus 1 infection ; Lipid and atherosclerosis ; Fluid shear stress and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01095",
+        "source": "N00273",
+        "target": "N00277",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Salmonella infection ; Toxoplasmosis ; Hepatitis B ; Epstein-Barr virus infection ; Human immunodeficiency virus 1 infection ; Lipid and atherosclerosis ; Fluid shear stress and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01124",
+        "source": "N00277",
+        "target": "N00307",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01125",
+        "source": "N00277",
+        "target": "N00308",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01126",
+        "source": "N00277",
+        "target": "N00309",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01373",
+        "source": "N00309",
+        "target": "N00666",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01372",
+        "source": "N00308",
+        "target": "N00666",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01371",
+        "source": "N00307",
+        "target": "N00666",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00782",
+        "source": "N00235",
+        "target": "N01074",
+        "interaction": "PPrel;missing interaction;-/-",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02852",
+        "source": "N01074",
+        "target": "N00203",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00301",
+        "source": "N00141",
+        "target": "N00339",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Necroptosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00302",
+        "source": "N00141",
+        "target": "N00594",
+        "interaction": "PPrel;activation;-->",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Shigellosis ; Salmonella infection ; Herpes simplex virus 1 infection ; Epstein-Barr virus infection ; Human immunodeficiency virus 1 infection ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00303",
+        "source": "N00141",
+        "target": "N00594",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Salmonella infection ; Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00304",
+        "source": "N00141",
+        "target": "N00594",
+        "interaction": NaN,
+        "origin": "DOWNSTREAM",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Shigellosis ; Salmonella infection ; Herpes simplex virus 1 infection ; Epstein-Barr virus infection ; Human immunodeficiency virus 1 infection ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00414",
+        "source": "N00163",
+        "target": "N00162",
+        "interaction": "PPrel;dissociation;-+-",
+        "origin": "NFKB_P53",
+        "pathway": "Apoptosis ; NOD-like receptor signaling pathway ; Neurotrophin signaling pathway ; Toxoplasmosis ; Hepatitis B ; Pathways in cancer ; Small cell lung cancer ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00350",
+        "source": "N00162",
+        "target": "N00142",
+        "interaction": "GErel;repression;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02060",
+        "source": "N00638",
+        "target": "N00247",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00883",
+        "source": "N00247",
+        "target": "N00164",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01008",
+        "source": "N00258",
+        "target": "N00248",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Focal adhesion ; AGE-RAGE signaling pathway in diabetic complications ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00898",
+        "source": "N00248",
+        "target": "N00142",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02049",
+        "source": "N00632",
+        "target": "N00208",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00670",
+        "source": "N00208",
+        "target": "N00318",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01389",
+        "source": "N00318",
+        "target": "N00114",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Sphingolipid signaling pathway ; Adrenergic signaling in cardiomyocytes ; Cholinergic synapse ; Estrogen signaling pathway ; Parathyroid hormone synthesis, secretion and action ; Pathways of neurodegeneration - multiple diseases ; Human immunodeficiency virus 1 infection ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02162",
+        "source": "N00740",
+        "target": "N00187",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "NOD-like receptor signaling pathway ; Hepatitis B ; Measles ; Herpes simplex virus 1 infection ; Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00625",
+        "source": "N00187",
+        "target": "N00272",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01078",
+        "source": "N00272",
+        "target": "N00242",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "NOD-like receptor signaling pathway ; Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02833",
+        "source": "N01063",
+        "target": "N00990",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02661",
+        "source": "N00990",
+        "target": "N00428",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01665",
+        "source": "N00428",
+        "target": "N00110",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00217",
+        "source": "N00110",
+        "target": "N00284",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "Cholinergic synapse ; Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01236",
+        "source": "N00284",
+        "target": "N00245",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "PI3K-Akt signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02847",
+        "source": "N01069",
+        "target": "N00755",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02185",
+        "source": "N00755",
+        "target": "N00754",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "NOD-like receptor signaling pathway ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02184",
+        "source": "N00754",
+        "target": "N00123",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "NOD-like receptor signaling pathway ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00275",
+        "source": "N00123",
+        "target": "N00252",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Necroptosis ; NOD-like receptor signaling pathway ; Shigellosis ; Salmonella infection ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00987",
+        "source": "N00252",
+        "target": "N00253",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "NF-kappa B signaling pathway ; Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00989",
+        "source": "N00253",
+        "target": "N00187",
+        "interaction": NaN,
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00685",
+        "source": "N00221",
+        "target": "N00301",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis ; Human immunodeficiency virus 1 infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01340",
+        "source": "N00301",
+        "target": "N00110",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01984",
+        "source": "N00600",
+        "target": "N00142",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02873",
+        "source": "N01088",
+        "target": "N01069",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00994",
+        "source": "N00255",
+        "target": "N00256",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Platinum drug resistance ; Apoptosis ; Necroptosis ; Pathways of neurodegeneration - multiple diseases ; Hepatitis B ; Measles ; Herpes simplex virus 1 infection ; Human immunodeficiency virus 1 infection ; Pathways in cancer ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00995",
+        "source": "N00256",
+        "target": "N00152",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Apoptosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00334",
+        "source": "N00152",
+        "target": "N00271",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Apoptosis ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01068",
+        "source": "N00271",
+        "target": "N00248",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "Apoptosis ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01689",
+        "source": "N00435",
+        "target": "N00166",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Endocrine resistance ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00465",
+        "source": "N00166",
+        "target": "N00165",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00051",
+        "source": "N00018",
+        "target": "N00168",
+        "interaction": "PCrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; HIF-1 signaling pathway ; Sphingolipid signaling pathway ; Adrenergic signaling in cardiomyocytes ; Cholinergic synapse ; Estrogen signaling pathway ; Parathyroid hormone synthesis, secretion and action ; AGE-RAGE signaling pathway in diabetic complications ; Pathways of neurodegeneration - multiple diseases ; Shigellosis ; Human immunodeficiency virus 1 infection ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00646",
+        "source": "N00190",
+        "target": "N00245",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Protein processing in endoplasmic reticulum ; Apoptosis ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01670",
+        "source": "N00429",
+        "target": "N00110",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01645",
+        "source": "N00412",
+        "target": "N00258",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Focal adhesion ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01483",
+        "source": "N00342",
+        "target": "N00659",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02073",
+        "source": "N00659",
+        "target": "N00242",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01761",
+        "source": "N00484",
+        "target": "N00239",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02259",
+        "source": "N00791",
+        "target": "N00258",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00118",
+        "source": "N00048",
+        "target": "N00114",
+        "interaction": "PCrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01489",
+        "source": "N00343",
+        "target": "N00171",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Apoptosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01030",
+        "source": "N00259",
+        "target": "N00252",
+        "interaction": NaN,
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02045",
+        "source": "N00630",
+        "target": "N00561",
+        "interaction": "PPrel;missing interaction;-/-",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01879",
+        "source": "N00561",
+        "target": "N00164",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01787",
+        "source": "N00502",
+        "target": "N00428",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00999",
+        "source": "N00257",
+        "target": "N00659",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "NF-kappa B signaling pathway ; Shigellosis ; Tuberculosis ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01706",
+        "source": "N00454",
+        "target": "N00428",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02834",
+        "source": "N01064",
+        "target": "N00168",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02281",
+        "source": "N00812",
+        "target": "N00813",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02282",
+        "source": "N00813",
+        "target": "N00341",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01474",
+        "source": "N00341",
+        "target": "N00342",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "NOD-like receptor signaling pathway ; Salmonella infection ; Toxoplasmosis ; Measles ; Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02151",
+        "source": "N00718",
+        "target": "N00258",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Parathyroid hormone synthesis, secretion and action ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01971",
+        "source": "N00595",
+        "target": "N00168",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02116",
+        "source": "N00686",
+        "target": "N00350",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01503",
+        "source": "N00350",
+        "target": "N00014",
+        "interaction": "PCrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "NOD-like receptor signaling pathway ; Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00036",
+        "source": "N00014",
+        "target": "N00298",
+        "interaction": "PCrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "HIF-1 signaling pathway ; Cholinergic synapse ; Tuberculosis ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01797",
+        "source": "N00507",
+        "target": "N00255",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "PI3K-Akt signaling pathway ; Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01527",
+        "source": "N00370",
+        "target": "N00257",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02131",
+        "source": "N00705",
+        "target": "N00282",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01161",
+        "source": "N00282",
+        "target": "N00142",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02329",
+        "source": "N00854",
+        "target": "N00284",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "PI3K-Akt signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00665",
+        "source": "N00204",
+        "target": "N00208",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Sphingolipid signaling pathway ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01769",
+        "source": "N00486",
+        "target": "N00494",
+        "interaction": "PPrel;missing interaction;-/-",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01782",
+        "source": "N00494",
+        "target": "N00282",
+        "interaction": "PPrel;ubiquitination;+u",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00067",
+        "source": "N00024",
+        "target": "N00257",
+        "interaction": "PCrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis ; Salmonella infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01594",
+        "source": "N00407",
+        "target": "N00171",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Estrogen signaling pathway ; Chemical carcinogenesis - receptor activation ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01218",
+        "source": "N00283",
+        "target": "N00686",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02310",
+        "source": "N00841",
+        "target": "N00171",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00978",
+        "source": "N00251",
+        "target": "N00284",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Sphingolipid signaling pathway ; PI3K-Akt signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02285",
+        "source": "N00814",
+        "target": "N00327",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01408",
+        "source": "N00327",
+        "target": "N00142",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00559",
+        "source": "N00177",
+        "target": "N00155",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00337",
+        "source": "N00155",
+        "target": "N00178",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways of neurodegeneration - multiple diseases ; Pathways in cancer ; Gastric cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00566",
+        "source": "N00178",
+        "target": "N00245",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "Prostate cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00268",
+        "source": "N00122",
+        "target": "N00282",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00516",
+        "source": "N00169",
+        "target": "N00164",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01791",
+        "source": "N00503",
+        "target": "N00110",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Autophagy - animal ; PI3K-Akt signaling pathway ; Neurotrophin signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02688",
+        "source": "N00998",
+        "target": "N00271",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Apoptosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01657",
+        "source": "N00419",
+        "target": "N00258",
+        "interaction": NaN,
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01152",
+        "source": "N00281",
+        "target": "N00327",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; AGE-RAGE signaling pathway in diabetic complications ; Toxoplasmosis ; Tuberculosis ; Hepatitis B ; Measles ; Herpes simplex virus 1 infection ; Pathways in cancer ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01976",
+        "source": "N00596",
+        "target": "N00258",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02034",
+        "source": "N00626",
+        "target": "N00165",
+        "interaction": "GErel;missing interaction;-/-",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01551",
+        "source": "N00391",
+        "target": "N00112",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "PI3K-Akt signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00232",
+        "source": "N00112",
+        "target": "N00048",
+        "interaction": "PCrel;missing interaction;-/-",
+        "origin": "NFKB_P53",
+        "pathway": "EGFR tyrosine kinase inhibitor resistance ; Pathways in cancer ; Prostate cancer ; Small cell lung cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02262",
+        "source": "N00794",
+        "target": "N00258",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01687",
+        "source": "N00434",
+        "target": "N00407",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02649",
+        "source": "N00985",
+        "target": "N00378",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01535",
+        "source": "N00378",
+        "target": "N00325",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis ; Hepatitis B ; Measles ; Herpes simplex virus 1 infection ; Epstein-Barr virus infection ; Human immunodeficiency virus 1 infection ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01395",
+        "source": "N00325",
+        "target": "N00343",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02660",
+        "source": "N00989",
+        "target": "N00281",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01528",
+        "source": "N00371",
+        "target": "N00659",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02650",
+        "source": "N00986",
+        "target": "N00987",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02651",
+        "source": "N00987",
+        "target": "N00437",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01692",
+        "source": "N00437",
+        "target": "N00247",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01541",
+        "source": "N00380",
+        "target": "N00360",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01522",
+        "source": "N00360",
+        "target": "N00281",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02086",
+        "source": "N00662",
+        "target": "N00187",
+        "interaction": NaN,
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02264",
+        "source": "N00795",
+        "target": "N00763",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02195",
+        "source": "N00763",
+        "target": "N00252",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02168",
+        "source": "N00743",
+        "target": "N00377",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "NOD-like receptor signaling pathway ; Shigellosis ; Human immunodeficiency virus 1 infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01533",
+        "source": "N00377",
+        "target": "N00378",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "NOD-like receptor signaling pathway ; Shigellosis ; Herpes simplex virus 1 infection ; Human immunodeficiency virus 1 infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02775",
+        "source": "N01041",
+        "target": "N00437",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02029",
+        "source": "N00623",
+        "target": "N00284",
+        "interaction": "PPrel;missing interaction;-/-",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer ; Prostate cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02020",
+        "source": "N00610",
+        "target": "N00247",
+        "interaction": "GErel;missing interaction;-/-",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02870",
+        "source": "N01085",
+        "target": "N00187",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00601",
+        "source": "N00184",
+        "target": "N00325",
+        "interaction": "GErel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02327",
+        "source": "N00853",
+        "target": "N00284",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "PI3K-Akt signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00651",
+        "source": "N00194",
+        "target": "N00659",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01629",
+        "source": "N00410",
+        "target": "N00258",
+        "interaction": NaN,
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02571",
+        "source": "N00957",
+        "target": "N00540",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis ; Salmonella infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01853",
+        "source": "N00540",
+        "target": "N00539",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis ; Salmonella infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01852",
+        "source": "N00539",
+        "target": "N00743",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02247",
+        "source": "N00784",
+        "target": "N00242",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis ; Salmonella infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02531",
+        "source": "N00939",
+        "target": "N00743",
+        "interaction": "PPrel;compound;623",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01285",
+        "source": "N00291",
+        "target": "N00247",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01858",
+        "source": "N00546",
+        "target": "N00008",
+        "interaction": "PCrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00010",
+        "source": "N00008",
+        "target": "N00162",
+        "interaction": "PCrel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00049",
+        "source": "N00015",
+        "target": "N00630",
+        "interaction": "PCrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01862",
+        "source": "N00549",
+        "target": "N00633",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02051",
+        "source": "N00633",
+        "target": "N00171",
+        "interaction": "PPrel;missing interaction;-/-",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01436",
+        "source": "N00329",
+        "target": "N00281",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "JAK-STAT signaling pathway ; Toxoplasmosis ; Herpes simplex virus 1 infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00341",
+        "source": "N00158",
+        "target": "N00662",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis ; Salmonella infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01690",
+        "source": "N00436",
+        "target": "N00166",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Endocrine resistance ; Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02038",
+        "source": "N00628",
+        "target": "N00245",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00100",
+        "source": "N00039",
+        "target": "N00014",
+        "interaction": "PCrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01279",
+        "source": "N00289",
+        "target": "N00162",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "NF-kappa B signaling pathway ; Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00144",
+        "source": "N00064",
+        "target": "N01081",
+        "interaction": NaN,
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02862",
+        "source": "N01081",
+        "target": "N00187",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00609",
+        "source": "N00186",
+        "target": "N00288",
+        "interaction": "PPrel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01276",
+        "source": "N00288",
+        "target": "N00289",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "NF-kappa B signaling pathway ; Apoptosis ; Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01959",
+        "source": "N00593",
+        "target": "N00258",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02674",
+        "source": "N00996",
+        "target": "N00008",
+        "interaction": "PCrel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00279",
+        "source": "N00124",
+        "target": "N00258",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02228",
+        "source": "N00776",
+        "target": "N00258",
+        "interaction": NaN,
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02696",
+        "source": "N01005",
+        "target": "N00110",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02057",
+        "source": "N00637",
+        "target": "N00626",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02161",
+        "source": "N00739",
+        "target": "N00740",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B ; Measles ; Herpes simplex virus 1 infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02666",
+        "source": "N00992",
+        "target": "N00282",
+        "interaction": "PPrel;ubiquitination;+u",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00784",
+        "source": "N00237",
+        "target": "N00171",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01095",
+        "source": "N00273",
+        "target": "N00277",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Salmonella infection ; Toxoplasmosis ; Hepatitis B ; Epstein-Barr virus infection ; Human immunodeficiency virus 1 infection ; Lipid and atherosclerosis ; Fluid shear stress and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02002",
+        "source": "N00602",
+        "target": "N00187",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Protein processing in endoplasmic reticulum ; Amyotrophic lateral sclerosis ; Pathways of neurodegeneration - multiple diseases ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01860",
+        "source": "N00547",
+        "target": "N00008",
+        "interaction": "PCrel;indirect effect;..>",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02326",
+        "source": "N00852",
+        "target": "N00284",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "PI3K-Akt signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01911",
+        "source": "N00572",
+        "target": "N00165",
+        "interaction": "GErel;missing interaction;-/-",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02776",
+        "source": "N01042",
+        "target": "N00437",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00174",
+        "source": "N00079",
+        "target": "N00595",
+        "interaction": "PCrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02330",
+        "source": "N00856",
+        "target": "N00208",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01469",
+        "source": "N00340",
+        "target": "N00282",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "Platinum drug resistance ; p53 signaling pathway ; Apoptosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02656",
+        "source": "N00988",
+        "target": "N00437",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00603",
+        "source": "N00185",
+        "target": "N00184",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01829",
+        "source": "N00529",
+        "target": "N00596",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01977",
+        "source": "N00597",
+        "target": "N00242",
+        "interaction": "PPrel;missing interaction;-/-",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02838",
+        "source": "N01065",
+        "target": "N00162",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02257",
+        "source": "N00790",
+        "target": "N00258",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00290",
+        "source": "N00138",
+        "target": "N00290",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Prostate cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01284",
+        "source": "N00290",
+        "target": "N00282",
+        "interaction": "PPrel;missing interaction;-/-",
+        "origin": "NFKB_P53",
+        "pathway": "Prostate cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01392",
+        "source": "N00322",
+        "target": "N00291",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "AGE-RAGE signaling pathway in diabetic complications ; Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02238",
+        "source": "N00778",
+        "target": "N00407",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02205",
+        "source": "N00771",
+        "target": "N00065",
+        "interaction": "PCrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00145",
+        "source": "N00065",
+        "target": "N00165",
+        "interaction": "PCrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02007",
+        "source": "N00603",
+        "target": "N00190",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "Autophagy - animal ; Protein processing in endoplasmic reticulum ; Apoptosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00468",
+        "source": "N00167",
+        "target": "N00247",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Salmonella infection ; Pathways in cancer ; Colorectal cancer ; Gastric cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02758",
+        "source": "N01040",
+        "target": "N00242",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02158",
+        "source": "N00734",
+        "target": "N00290",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02872",
+        "source": "N01087",
+        "target": "N00259",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02084",
+        "source": "N00661",
+        "target": "N00284",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "PI3K-Akt signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02033",
+        "source": "N00624",
+        "target": "N00595",
+        "interaction": "GErel;expression;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02098",
+        "source": "N00675",
+        "target": "N00428",
+        "interaction": "PPrel;ubiquitination;+u",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02871",
+        "source": "N01086",
+        "target": "N00539",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01531",
+        "source": "N00376",
+        "target": "N00423",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Necroptosis ; Hepatitis B ; Lipid and atherosclerosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01662",
+        "source": "N00423",
+        "target": "N00187",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01529",
+        "source": "N00372",
+        "target": "N00423",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Necroptosis ; Hepatitis B ; Herpes simplex virus 1 infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00247",
+        "source": "N00116",
+        "target": "N00208",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Pathways in cancer"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02827",
+        "source": "N01060",
+        "target": "N00163",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL00292",
+        "source": "N00139",
+        "target": "N00168",
+        "interaction": "PPrel;binding/association;---",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01678",
+        "source": "N00430",
+        "target": "N00221",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Toxoplasmosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02160",
+        "source": "N00738",
+        "target": "N00740",
+        "interaction": "PPrel;activation;-->",
+        "origin": "NFKB_P53",
+        "pathway": "Hepatitis B ; Measles ; Herpes simplex virus 1 infection ; Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02867",
+        "source": "N01084",
+        "target": "N00162",
+        "interaction": "PPrel;ubiquitination;+u",
+        "origin": "NFKB_P53",
+        "pathway": "Shigellosis"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01776",
+        "source": "N00491",
+        "target": "N00507",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "PI3K-Akt signaling pathway"
+      }
+    },
+    {
+      "data": {
+        "id": "RL02664",
+        "source": "N00991",
+        "target": "N00705",
+        "interaction": "PPrel;inhibition;--|",
+        "origin": "NFKB_P53",
+        "pathway": "Epstein-Barr virus infection"
+      }
+    },
+    {
+      "data": {
+        "id": "RL01727",
+        "source": "N00461",
+        "target": "N00168",
+        "interaction": "PPrel;phosphorylation;+p",
+        "origin": "NFKB_P53",
+        "pathway": "PI3K-Akt signaling pathway"
+      }
+    }
+  ]
+}
