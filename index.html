@@ -2,148 +2,198 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>BCL2 Network</title>
+<title>BCL2 Network Debug</title>
 
 <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
 
 <style>
-body { margin:0; display:flex; height:100vh; font-family:Arial; }
-#cy { width:75%; height:100%; border-right:1px solid #ccc; }
-#panel { width:25%; padding:10px; background:#f5f5f5; overflow:auto; }
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  font-family: Arial;
+}
+
+#cy {
+  width: 75%;
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+
+#panel {
+  width: 25%;
+  padding: 10px;
+  background: #f5f5f5;
+  overflow: auto;
+}
 </style>
 </head>
 
 <body>
 
 <div id="cy"></div>
+
 <div id="panel">
-<h3>Metadata</h3>
-<div id="content">Click node/edge</div>
+  <h3>Metadata</h3>
+  <div id="content">Waiting...</div>
 </div>
 
 <script>
 
+// ---------------- DEBUG FETCH ----------------
 fetch("./network.json")
-.then(res => res.json())
+.then(res => {
+    console.log("Fetch response:", res);
+    return res.json();
+})
 .then(data => {
+    console.log("LOADED DATA:", data);
 
-const cy = cytoscape({
-container: document.getElementById("cy"),
+    if (!data.elements) {
+        document.getElementById("content").innerHTML =
+            "<b style='color:red;'>ERROR: Missing 'elements' in JSON</b>";
+        return;
+    }
 
-elements: data.elements,  // ✅ FIXED
+    if (!data.elements.nodes || data.elements.nodes.length === 0) {
+        document.getElementById("content").innerHTML =
+            "<b style='color:red;'>ERROR: No nodes found</b>";
+        return;
+    }
 
-style: [
+    // ---------------- CYTOSCAPE ----------------
+    const cy = cytoscape({
+        container: document.getElementById("cy"),
 
-{
-selector: "node",
-style: {
-"label": "data(label)",
-"text-valign": "center",
-"font-size": 8,
-"width": 50,
-"height": 50,
-"border-width": 2
-}
-},
+        elements: data.elements,
 
-// PIE COMPARTMENT COLORS
-{
-selector: "node",
-style: {
-"pie-size": "80%",
-"pie-1-background-color": "data(colors.0)",
-"pie-1-background-size": 25,
-"pie-2-background-color": "data(colors.1)",
-"pie-2-background-size": 25,
-"pie-3-background-color": "data(colors.2)",
-"pie-3-background-size": 25,
-"pie-4-background-color": "data(colors.3)",
-"pie-4-background-size": 25
-}
-},
+        style: [
 
-// NODE TYPES
-{
-selector: 'node[type="Protein"]',
-style: { "shape": "ellipse", "background-color":"#ccc" }
-},
-{
-selector: 'node[type="GENE"]',
-style: { "shape":"ellipse", "background-opacity":0, "border-style":"dashed" }
-},
-{
-selector: 'node[type="Compound"]',
-style: { "shape":"ellipse", "border-width":6 }
-},
-{
-selector: 'node[type="Unknown"]',
-style: { "shape":"triangle" }
-},
+            {
+                selector: "node",
+                style: {
+                    "label": "data(label)",
+                    "text-valign": "center",
+                    "font-size": 8,
+                    "width": 50,
+                    "height": 50,
+                    "border-width": 2
+                }
+            },
 
-// CONNECTION HIGHLIGHT
-{
-selector: "node[?is_connection]",
-style: { "border-color":"red", "border-width":4 }
-},
+            // PIE COMPARTMENTS
+            {
+                selector: "node",
+                style: {
+                    "pie-size": "80%",
+                    "pie-1-background-color": "data(colors.0)",
+                    "pie-1-background-size": 25,
+                    "pie-2-background-color": "data(colors.1)",
+                    "pie-2-background-size": 25,
+                    "pie-3-background-color": "data(colors.2)",
+                    "pie-3-background-size": 25,
+                    "pie-4-background-color": "data(colors.3)",
+                    "pie-4-background-size": 25
+                }
+            },
 
-// EDGES
-{
-selector: "edge",
-style: {
-"curve-style": "bezier",
-"target-arrow-shape": "triangle",
-"width": 2
-}
-},
-{
-selector: 'edge[origin="UPSTREAM"]',
-style: { "line-color":"blue", "target-arrow-color":"blue" }
-},
-{
-selector: 'edge[origin="DOWNSTREAM"]',
-style: { "line-color":"green", "target-arrow-color":"green" }
-},
-{
-selector: 'edge[origin="NFKB_P53"]',
-style: { "line-color":"red", "target-arrow-color":"red" }
-}
+            // NODE TYPES
+            {
+                selector: 'node[type="Protein"]',
+                style: { "shape": "ellipse", "background-color":"#ccc" }
+            },
+            {
+                selector: 'node[type="GENE"]',
+                style: {
+                    "shape":"ellipse",
+                    "background-opacity":0,
+                    "border-style":"dashed"
+                }
+            },
+            {
+                selector: 'node[type="Compound"]',
+                style: {
+                    "shape":"ellipse",
+                    "border-width":6
+                }
+            },
+            {
+                selector: 'node[type="Unknown"]',
+                style: { "shape":"triangle" }
+            },
 
-],
+            // CONNECTION NODES
+            {
+                selector: "node[?is_connection]",
+                style: {
+                    "border-color":"red",
+                    "border-width":4
+                }
+            },
 
-layout: {
-name: "breadthfirst",
-roots: "#N00142",
-spacingFactor: 1.8,
-directed: true
-}
+            // EDGES
+            {
+                selector: "edge",
+                style: {
+                    "curve-style": "bezier",
+                    "target-arrow-shape": "triangle",
+                    "width": 2
+                }
+            },
+            {
+                selector: 'edge[origin="UPSTREAM"]',
+                style: { "line-color":"blue", "target-arrow-color":"blue" }
+            },
+            {
+                selector: 'edge[origin="DOWNSTREAM"]',
+                style: { "line-color":"green", "target-arrow-color":"green" }
+            },
+            {
+                selector: 'edge[origin="NFKB_P53"]',
+                style: { "line-color":"red", "target-arrow-color":"red" }
+            }
+
+        ],
+
+        layout: {
+            name: "breadthfirst",
+            roots: "#N00142",
+            directed: true,
+            spacingFactor: 1.8
+        }
+    });
+
+    // ---------------- CLICK EVENTS ----------------
+    cy.on("tap", "node", evt => {
+        const d = evt.target.data();
+        document.getElementById("content").innerHTML = `
+            <h3>Node</h3>
+            <b>ID:</b> ${d.id}<br>
+            <b>Type:</b> ${d.type}<br>
+            <b>Names:</b> ${d.full_names}<br>
+            <b>Compartments:</b> ${d.compartments}
+        `;
+    });
+
+    cy.on("tap", "edge", evt => {
+        const d = evt.target.data();
+        document.getElementById("content").innerHTML = `
+            <h3>Edge</h3>
+            <b>ID:</b> ${d.id}<br>
+            <b>Source:</b> ${d.source}<br>
+            <b>Target:</b> ${d.target}<br>
+            <b>Origin:</b> ${d.origin}<br>
+            <b>Interaction:</b> ${d.interaction}
+        `;
+    });
+
+})
+.catch(err => {
+    console.error("FETCH ERROR:", err);
+    document.getElementById("content").innerHTML =
+        "<b style='color:red;'>FETCH FAILED: " + err + "</b>";
 });
 
-// CLICK EVENTS
-cy.on("tap", "node", evt => {
-const d = evt.target.data();
-document.getElementById("content").innerHTML = `
-<h3>Node</h3>
-<b>ID:</b> ${d.id}<br>
-<b>Type:</b> ${d.type}<br>
-<b>All Names:</b> ${d.full_names}<br>
-<b>Compartments:</b> ${d.compartments}
-`;
-});
-
-cy.on("tap", "edge", evt => {
-const d = evt.target.data();
-document.getElementById("content").innerHTML = `
-<h3>Edge</h3>
-<b>ID:</b> ${d.id}<br>
-<b>Source:</b> ${d.source}<br>
-<b>Target:</b> ${d.target}<br>
-<b>Origin:</b> ${d.origin}<br>
-<b>Interaction:</b> ${d.interaction}<br>
-<b>Pathway:</b> ${d.pathway}
-`;
-});
-
-});
 </script>
 
 </body>
