@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BCL2 Network</title>
+
+  <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      height: 100vh;
+      font-family: Arial;
+    }
+
+    #cy {
+      width: 75%;
+      height: 100%;
+      border-right: 1px solid #ccc;
+    }
+
+    #panel {
+      width: 25%;
+      padding: 10px;
+      overflow-y: auto;
+      background: #f8f8f8;
+    }
+
+    h3 {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="cy"></div>
+<div id="panel">
+  <h3>Metadata</h3>
+  <div id="content">Click a node or edge</div>
+</div>
+
+<script>
+
+fetch("network.json")
+.then(res => res.json())
+.then(data => {
+
+  const cy = cytoscape({
+    container: document.getElementById("cy"),
+
+    elements: data,
+
+    style: [
+
+      // ---------------- NODE BASE ----------------
+      {
+        selector: "node",
+        style: {
+          "label": "data(label)",
+          "text-valign": "center",
+          "color": "#000",
+          "background-color": "#ddd",
+          "border-width": 2,
+          "border-color": "#555",
+          "width": 40,
+          "height": 40
+        }
+      },
+
+      // ---------------- NODE SHAPES ----------------
+      {
+        selector: 'node[type="Protein"]',
+        style: { "shape": "ellipse" }
+      },
+      {
+        selector: 'node[type="GENE"]',
+        style: {
+          "shape": "ellipse",
+          "background-opacity": 0
+        }
+      },
+      {
+        selector: 'node[type="Compound"]',
+        style: {
+          "shape": "ellipse",
+          "border-width": 6
+        }
+      },
+      {
+        selector: 'node[type="Unknown"]',
+        style: { "shape": "triangle" }
+      },
+
+      // ---------------- CONNECTION HIGHLIGHT ----------------
+      {
+        selector: "node[?is_connection]",
+        style: {
+          "border-color": "red",
+          "border-width": 4
+        }
+      },
+
+      // ---------------- EDGES ----------------
+      {
+        selector: "edge",
+        style: {
+          "curve-style": "bezier",
+          "target-arrow-shape": "triangle",
+          "width": 2
+        }
+      },
+
+      {
+        selector: 'edge[origin="UPSTREAM"]',
+        style: { "line-color": "#1f77b4", "target-arrow-color": "#1f77b4" }
+      },
+      {
+        selector: 'edge[origin="DOWNSTREAM"]',
+        style: { "line-color": "#2ca02c", "target-arrow-color": "#2ca02c" }
+      },
+      {
+        selector: 'edge[origin="NFKB_P53"]',
+        style: { "line-color": "#d62728", "target-arrow-color": "#d62728" }
+      }
+
+    ],
+
+    layout: {
+      name: "breadthfirst",
+      directed: true,
+      roots: "#N00142",
+      spacingFactor: 1.5
+    }
+  });
+
+  // ---------------- CLICK EVENTS ----------------
+  cy.on("tap", "node", function(evt) {
+    const d = evt.target.data();
+
+    document.getElementById("content").innerHTML = `
+      <h3>Node</h3>
+      <b>ID:</b> ${d.id}<br>
+      <b>Label:</b> ${d.label}<br>
+      <b>Type:</b> ${d.type}<br>
+      <b>All Names:</b> ${d.full_names}<br>
+      <b>Compartments:</b> ${d.compartments}<br>
+      <b>GO:</b> ${d.go}
+    `;
+  });
+
+  cy.on("tap", "edge", function(evt) {
+    const d = evt.target.data();
+
+    document.getElementById("content").innerHTML = `
+      <h3>Edge</h3>
+      <b>ID:</b> ${d.id}<br>
+      <b>Source:</b> ${d.source}<br>
+      <b>Target:</b> ${d.target}<br>
+      <b>Interaction:</b> ${d.interaction}<br>
+      <b>Origin:</b> ${d.origin}<br>
+      <b>Pathway:</b> ${d.pathway}
+    `;
+  });
+
+});
+
+</script>
+
+</body>
+</html>
